@@ -3,7 +3,11 @@ export default defineNuxtConfig({
   modules:[
     '@nuxtjs/google-fonts',
     '@nuxtjs/tailwindcss',
+    '@nuxt/content',
   ],
+  content: { 
+
+  },
   tailwindcss: { 
       exposeConfig: true, 
       viewer: true,
