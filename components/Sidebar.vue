@@ -6,8 +6,8 @@
         </svg>
       </button>
       <nav 
-        :class="['bg-black text-white p-3 w-content fixed h-content top-1/2 right-0 rounded-tl-md rounded-bl-md transition-transform duration-300 transform', { 'translate-x-full': !isSidebarOpen, 'translate-x-0': isSidebarOpen }]" 
-        class="md:translate-x-0 md:fixed md:top-1/2 md:right-0 md:w-content md:h-content md:bg-black md:text-white md:p-3 md:rounded-tl-md md:rounded-bl-md md:transition-transform md:duration-300 md:transform"
+        :class="['bg-black text-white p-3 w-content fixed h-content top-[4rem] right-0 rounded-tl-md rounded-bl-md transition-transform duration-300 transform', { 'translate-x-full': !isSidebarOpen, 'translate-x-0': isSidebarOpen }]" 
+        class="md:translate-x-0 md:fixed md:top-1/4 md:right-0 md:w-content md:h-content md:bg-black md:text-white md:p-3 md:rounded-tl-md md:rounded-bl-md md:transition-transform md:duration-300 md:transform"
       >
         <ul>
           <li class="my-5 text-center">
