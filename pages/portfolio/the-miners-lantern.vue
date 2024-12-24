@@ -1,4 +1,7 @@
----
+<template>
+
+
+    ---
 title: "The Miners Lantern"
 description: "The Miners Lantern Hackathon Project"
 slug: "the-miners-lantern"
@@ -21,4 +24,11 @@ It is hosted on...
 * <a href="https://www.heroku.com/" target="_blank">Heroku</a>
 * <a href="https://cloudinary.com/" target="_blank">Cloundinary</a>
 * <a href="https://neon.tech/" target="_blank">Neon.tech</a>
+</template>
+
+<script setup>
+</script>
+
+<style>
+</style>
 
