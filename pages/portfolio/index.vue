@@ -5,11 +5,12 @@
 <template>
   <div class="max-w-3xl mx-auto min-h-screen my-12">
     <main class="w-full">
-      <h1 class="text-white text-2xl font-semibold mb-6">My Portfolio page</h1>
+      <h1 class="text-white text-3xl font-semibold mb-6 text-center">Previous Projects</h1>
       <section class="space-y-4 divide-y">
-        <article class="pt-4 flex">
+        <nuxt-link to="portfolio/the-miners-lantern" class="mb-3">
+        <h2 class="flex flex-row justify-center text-2xl">The Miners Lantern</h2>
+        <article class="pt-4 flex flex-row">
           <div class="flex flex-col text-center justify-center">
-          <nuxt-link to="portfolio/the-miners-lantern">The Miners Lantern</nuxt-link>
           <img 
             src="/assets/screenshots/miners-latern-responsive.png" 
             alt="The Miners Lantern Responsive Screenshot"
@@ -21,6 +22,7 @@
 
         </div>
         </article>
+        </nuxt-link>
       </section>
     </main>
   </div>
