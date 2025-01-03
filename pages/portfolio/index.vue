@@ -12,7 +12,7 @@
         <article class="pt-4 flex flex-row">
           <div class="flex flex-col text-center justify-center">
           <img 
-            src="/assets/screenshots/miners-latern-responsive.png" 
+            src="/assets/screenshots/miners-lantern-responsive.png" 
             alt="The Miners Lantern Responsive Screenshot"
             class=""
           >

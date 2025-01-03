@@ -18,9 +18,10 @@ useHead({
 
 <style>
 * { 
-  color:  rgb(147 197 253 / var(--tw-text-opacity, 1))
+  /* color:  rgb(147 197 253 / var(--tw-text-opacity, 1)) */
+  color: white;
 }
 body{ 
-  background-color: lightblue;
+  background-color: black;
 }
 </style>
