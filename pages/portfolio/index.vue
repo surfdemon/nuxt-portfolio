@@ -2,12 +2,9 @@
   <div class="min-h-screen bg-black text-white font-sans">
     <div class="bg-gradient-to-br from-black to-blue-900 py-20">
       <div class="max-w-6xl mx-auto px-4">
-        <h1 class="text-5xl font-bold mb-6 font-heading text-center">
+        <h1 class="text-4xl font-bold mb-6 font-heading text-center">
           My Projects
         </h1>
-        <p class="text-xl text-blue-300 text-center max-w-2xl mx-auto">
-          A collection of my latest work in web development.
-        </p>
       </div>
     </div>
 
@@ -59,10 +56,10 @@
         <a href="/portfolio/the-miners-lantern"
           class="group bg-blue-900/20 rounded-xl overflow-hidden border border-blue-800 hover:border-blue-600 transition flex flex-col">
           <div class="relative h-48 overflow-hidden">
-            <img src="" alt="" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" />
-            <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+            <img src="/public/assets/screenshots/miners-lantern-responsive.png" alt="The Miners Lantern Responsive Screenshots" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent">
           </div>
-
+        </div>
           <div class="p-6 flex-grow">
             <div class="flex justify-between items-start mb-4">
               <h3 class="text-xl font-bold font-heading">
@@ -102,7 +99,7 @@
         <a href="/portfolio/whack-a-mole/"
           class="group bg-blue-900/20 rounded-xl overflow-hidden border border-blue-800 hover:border-blue-600 transition flex flex-col">
           <div class="relative h-48 overflow-hidden">
-            <img src="" alt="" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" />
+            <img src="/public/assets/screenshots/whack-a-mole-responsive.png" alt="" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
           </div>
 
