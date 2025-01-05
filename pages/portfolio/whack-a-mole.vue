@@ -40,7 +40,7 @@
                             target="_blank">Headforwards</a>.
                     </p>
                     <p class="m-8 text-white">
-                        It was a spontaneous hackathon that was organised by myself and one other studant (Nathan). As
+                        It was a spontaneous hackathon that was organised by myself and one other student (Nathan). As
                         we had both got a head of the course, we wanted to do something while waiting for the other
                         students to catch up. We decided to create a Whack a Mole game with a twist.
                         We decided to use a plumber theme and have the moles as plumbers jumping out of pipes.
@@ -87,12 +87,14 @@
                 <section class="mb-12">
                     <h3 class="text-2xl font-bold mb-4 font-heading text-blue-400">Key Features</h3>
                     <div class="grid md:grid-cols-2 gap-4">
-                        <div class="p-4 bg-blue-900/30 rounded-lg border border-blue-800">Responsive for mobile &amp; desktop devices
+                        <div class="p-4 bg-blue-900/30 rounded-lg border border-blue-800">Responsive for mobile &amp;
+                            desktop devices
                         </div>
                         <div class="p-4 bg-blue-900/30 rounded-lg border border-blue-800">Mutable Music
                         </div>
                         <div class="p-4 bg-blue-900/30 rounded-lg border border-blue-800">Game Score</div>
-                        <div class="p-4 bg-blue-900/30 rounded-lg border border-blue-800">Start, Pause, &amp; Restart</div>
+                        <div class="p-4 bg-blue-900/30 rounded-lg border border-blue-800">Start, Pause, &amp; Restart
+                        </div>
                     </div>
                 </section>
 
@@ -117,11 +119,11 @@
 
 <script setup>
 useHead({
-    title: 'The Miners Lantern Hackathon Project',
+    title: 'Whack a Mole (Plumber) Hackathon Project',
     meta: [
         {
             name: 'description',
-            content: 'Miners Lantern Hackathon Project part of CodeInstitute BootCamp'
+            content: 'Whack a Mole type game with a plumber theme. Created as part of a hackathon during a Full Stack Developer BootCamp.'
         }
     ]
 })

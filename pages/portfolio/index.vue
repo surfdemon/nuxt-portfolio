@@ -15,7 +15,8 @@
           class="group bg-blue-900/20 rounded-xl overflow-hidden border border-blue-800 hover:border-blue-600 transition flex flex-col">
           <div class="relative h-48 overflow-hidden">
             <img src="" alt="" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" />
-            <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" >
+            </div>
           </div>
 
           <div class="p-6 flex-grow">
@@ -26,7 +27,7 @@
             </div>
 
             <p class="text-gray-300 mb-4 ">
-              A personal proje to show off the projects that I've worked on.
+              A personal project to show off the projects that I've worked on.
             </p>
 
             <div class="flex flex-wrap gap-2">
@@ -100,7 +101,8 @@
           class="group bg-blue-900/20 rounded-xl overflow-hidden border border-blue-800 hover:border-blue-600 transition flex flex-col">
           <div class="relative h-48 overflow-hidden">
             <img src="/public/assets/screenshots/whack-a-mole-responsive.png" alt="" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" />
-            <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent">
+              </div>
           </div>
 
           <div class="p-6 flex-grow">
@@ -139,7 +141,8 @@
           class="group bg-blue-900/20 rounded-xl overflow-hidden border border-blue-800 hover:border-blue-600 transition flex flex-col">
           <div class="relative h-48 overflow-hidden">
             <img src="" alt="" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" />
-            <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" >
+              </div>
           </div>
 
           <div class="p-6 flex-grow">
@@ -162,7 +165,6 @@
               <span class="text-sm px-3 py-1 bg-blue-900/40 rounded-full text-blue-200 border border-blue-700">Github
                 Pages
               </span>
-
             </div>
           </div>
 
@@ -186,7 +188,8 @@
           class="group bg-blue-900/20 rounded-xl overflow-hidden border border-blue-800 hover:border-blue-600 transition flex flex-col">
           <div class="relative h-48 overflow-hidden">
             <img src="" alt="" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" />
-            <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent">
+          </div>
           </div>
 
           <div class="p-6 flex-grow">
@@ -221,7 +224,8 @@
           class="group bg-blue-900/20 rounded-xl overflow-hidden border border-blue-800 hover:border-blue-600 transition flex flex-col">
           <div class="relative h-48 overflow-hidden">
             <img src="" alt="" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" />
-            <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent">
+              </div>
           </div>
 
           <div class="p-6 flex-grow">
