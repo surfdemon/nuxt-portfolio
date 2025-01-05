@@ -27,7 +27,7 @@
                     </div>
                 </div>
 
-                <img src="/public/assets/screenshots/mind-body-care-screenshots.png" alt="">
+                <img src="/public/assets/screenshots/mind-body-care-screenshots.png" alt="Mind Body Care Screenshots">
 
                 <h2 class="text-3xl font-extrabold text-blue-400 text-center m-5">Project Overview</h2>
 
@@ -76,9 +76,7 @@
                     <h3 class="text-2xl font-bold mb-4 font-heading text-blue-400">Key Features</h3>
                     <div class="grid md:grid-cols-2 gap-4">
                         <div class="p-4 bg-blue-900/30 rounded-lg border border-blue-800 text-white">Responsive Design</div>
-                        <div class="p-4 bg-blue-900/30 rounded-lg border border-blue-800 text-white"></div>
-                        <div class="p-4 bg-blue-900/30 rounded-lg border border-blue-800 text-white"></div>
-                        <div class="p-4 bg-blue-900/30 rounded-lg border border-blue-800 text-white"></div>
+                        <div class="p-4 bg-blue-900/30 rounded-lg border border-blue-800 text-white">Contact Form in Modal</div>
                     </div>
                 </section>
 
