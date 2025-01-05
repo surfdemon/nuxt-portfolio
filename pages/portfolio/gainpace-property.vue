@@ -2,7 +2,7 @@
     <div class="bg-black">
 
         <div class="bg-gradient-to-br from-black to-blue-900 py-20">
-            <h1 class="text-4xl font-extrabold text-white text-center m-5">The Miners Lantern</h1>
+            <h1 class="text-4xl font-extrabold text-white text-center m-5">Gainpace Property</h1>
         </div>
 
         <div class="max-w-4xl mx-auto px-4 py-12 ">
@@ -11,7 +11,7 @@
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
                     <div class="text-center p-4 bg-blue-900/30 rounded-lg">
                         <div class="text-blue-300 mb-1">Duration</div>
-                        <div class="font-semiboldi text-white">4 Days</div>
+                        <div class="font-semiboldi text-white">14 Days</div>
                     </div>
                     <div class="text-center p-4 bg-blue-900/30 rounded-lg">
                         <div class="text-blue-300 mb-1">Role</div>
@@ -27,38 +27,38 @@
                     </div>
                 </div>
 
-                <img src="/public/assets/screenshots/miners-lantern-responsive.png" alt="">
-                
+                <img src="/public/assets/screenshots/gainpace-property-responsive.png"
+                    alt="Gainpace Property Responsive Screenshots">
+
                 <h2 class="text-3xl font-extrabold text-blue-400 text-center m-5">Project Overview</h2>
-                
+
                 <div class=" justify-center items-center">
                     <p class="m-8 text-white">
-                        The miners lantern was created as part of a hackathon. It was part of a 16-week intensive Full
-                        Stack Developer BootCamp with <a href="https://codeinstitute.net"
+                        The Gainpace Property site was created as my capstone project as part of a 16-week intensive
+                        Full Stack Developer BootCamp with <a href="https://codeinstitute.net"
                             target="_blank">CodeInstitute</a>, organised by <a href="https://www.headforwards.com"
-                            target="_blank">Headforwards</a>. There was 4 developers that worked on the project, each
-                        taking a part of the project and helping each other.
+                            target="_blank">Headforwards</a>.
                     </p>
-                    <p class="m-8 text-white">The aim of the project was to create a platform, using technologies
-                        covered in the bootcamp, for people to book events tickets
-                        and manage their bookings. The platform should also include features for managing the event
-                        details, creating and managing tickets, and managing the user's bookings.</p>
-                    <p class="m-8 text-white">I started off by setting the Github repository, installed Django along
-                        with all the other
-                        required software and setup the hosting and database for the live site.</p>
-                    <p class="m-8 text-white">After the initial setup I worked on authentication for the site and the
-                        pages for booking events tickets along with updating ticket bookings.</p>
+                    <p class="m-8 text-white">
+                        The core criteria for the project was that the site had to be built with Django, have at least one
+                        custom model and have CRUD functionality on the front end.
+                    </p>
+                    <p class="m-8 text-white">
+                        The site allows members to advertise their properties that they have available for
+                        rent. It then allows visitors to request a viewing by using a link to a Google form.
+                    </p>
                 </div>
 
                 <section class="mb-12">
                     <h3 class="text-2xl font-bold mb-4 font-heading text-blue-400">Project Links</h3>
                     <div class="flex gap-4">
-                        <a href="https://github.com/surfdemon/nuxt-portfolio" target="_blank" rel="noopener noreferrer"
+                        <a href="https://github.com/surfdemon/gainpace-property/" target="_blank"
+                            rel="noopener noreferrer"
                             class="flex-1 p-4 bg-blue-900/30 rounded-lg border border-blue-800 hover:bg-blue-800/30 transition text-center">
                             <div class="text-blue-300 mb-2">Source Code</div>
                             <div class="font-semibold text-white">View on GitHub</div>
                         </a>
-                        <a href="https://miners-lantern-b436a12bd6f4.herokuapp.com" target="_blank"
+                        <a href="https://gainpace-property-aa2d5954f843.herokuapp.com/" target="_blank"
                             rel="noopener noreferrer"
                             class="flex-1 p-4 bg-blue-900/30 rounded-lg border border-blue-800 hover:bg-blue-800/30 transition text-center">
                             <div class="text-blue-300 mb-2">Live Demo</div>
@@ -88,23 +88,24 @@
                 <section class="mb-12">
                     <h3 class="text-2xl font-bold mb-4 font-heading text-blue-400">Key Features</h3>
                     <div class="grid md:grid-cols-2 gap-4">
-                        <div class="p-4 bg-blue-900/30 rounded-lg border border-blue-800">Create &amp; manage events
-                        </div>
-                        <div class="p-4 bg-blue-900/30 rounded-lg border border-blue-800">Register tickets for event
-                        </div>
-                        <div class="p-4 bg-blue-900/30 rounded-lg border border-blue-800">Sign up for newsletter</div>
-                        <div class="p-4 bg-blue-900/30 rounded-lg border border-blue-800">Register Account to Login
-                            &amp; Logout</div>
+                        <div class="p-4 bg-blue-900/30 rounded-lg border border-blue-800 text-white">Responsive Design</div>
+                        <div class="p-4 bg-blue-900/30 rounded-lg border border-blue-800 text-white">User Registration and Authentication</div>
+                        <div class="p-4 bg-blue-900/30 rounded-lg border border-blue-800 text-white">Add &amp; Manage Property Listings</div>
+                        <div class="p-4 bg-blue-900/30 rounded-lg border border-blue-800 text-white">Filter Properties by Status</div>
                     </div>
                 </section>
 
                 <section>
                     <h3 class="text-2xl font-bold mb-4 font-heading text-blue-400">Project Gallery</h3>
                     <div class="grid md:grid-cols-2 gap-4">
-                        <img src="/public/assets/screenshots/miners-lantern-home-page.png" alt="Project screenshot 1" class="rounded-lg border border-blue-800 w-full">
-                        <img src="/public/assets/screenshots/miners-lantern-events.png" alt="Project screenshot 2" class="rounded-lg border border-blue-800 w-full">
-                        <img src="/public/assets/screenshots/miners-lantern-about.png" alt="Project screenshot 3" class="rounded-lg border border-blue-800 w-full">
-                        <img src="/public/assets/screenshots/miners-lantern-bookings.png" alt="Project screenshot 3" class="rounded-lg border border-blue-800 w-full">
+                        <img src="/public/assets/screenshots/gainpace-property-home.png" alt="Gainpace Property Home Page"
+                            class="rounded-lg border border-blue-800 w-full">
+                        <img src="/public/assets/screenshots/gainpace-property-register.png" alt="Gainpace Property Register Page"
+                            class="rounded-lg border border-blue-800 w-full">
+                        <img src="/public/assets/screenshots/gainpace-property-listing.png" alt="Gainpace Property Listing Page"
+                            class="rounded-lg border border-blue-800 w-full">
+                        <img src="/public/assets/screenshots/gainpace-property-edit-listing.png" alt="Gainpace Property Edit Listing Page"
+                            class="rounded-lg border border-blue-800 w-full">
                     </div>
                 </section>
 
@@ -115,11 +116,11 @@
 
 <script setup>
 useHead({
-    title: 'The Miners Lantern Hackathon Project',
+    title: 'Gainpace Property Capstone Project',
     meta: [
         {
             name: 'description',
-            content: 'Miners Lantern Hackathon Project part of CodeInstitute BootCamp'
+            content: 'Gainpace Property Capstone Project part of CodeInstitute BootCamp'
         }
     ]
 })
