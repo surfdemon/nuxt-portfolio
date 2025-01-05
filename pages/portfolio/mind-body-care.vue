@@ -15,7 +15,7 @@
                     </div>
                     <div class="text-center p-4 bg-blue-900/30 rounded-lg">
                         <div class="text-blue-300 mb-1">Role</div>
-                        <div class="font-semiboldi text-white">Lead Developer</div>
+                        <div class="font-semiboldi text-white">Developer</div>
                     </div>
                     <div class="text-center p-4 bg-blue-900/30 rounded-lg">
                         <div class="text-blue-300 mb-1">Status</div>
