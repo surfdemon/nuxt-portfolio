@@ -73,34 +73,32 @@
                             class="px-4 py-2 bg-blue-900/30 rounded-lg border border-blue-700 text-blue-200">Bootstrap</span>
                         <span
                             class="px-4 py-2 bg-blue-900/30 rounded-lg border border-blue-700 text-blue-200">Javascript</span>
-                        <span class="px-4 py-2 bg-blue-900/30 rounded-lg border border-blue-700 text-blue-200"><a
-                                href="https://www.heroku.com/" target="_blank">Github Pages</a></span>
+                        <span class="px-4 py-2 bg-blue-900/30 rounded-lg border border-blue-700 text-blue-200">Clickable SVG Map</span>
+                        <span class="px-4 py-2 bg-blue-900/30 rounded-lg border border-blue-700 text-blue-200">Local Storage</span>
+                        <span class="px-4 py-2 bg-blue-900/30 rounded-lg border border-blue-700 text-blue-200">Github Pages</span>
                     </div>
                 </section>
 
                 <section class="mb-12">
                     <h3 class="text-2xl font-bold mb-4 font-heading text-blue-400">Key Features</h3>
                     <div class="grid md:grid-cols-2 gap-4">
-                        <div class="p-4 bg-blue-900/30 rounded-lg border border-blue-800">Create &amp; manage events
-                        </div>
-                        <div class="p-4 bg-blue-900/30 rounded-lg border border-blue-800">Register tickets for event
-                        </div>
-                        <div class="p-4 bg-blue-900/30 rounded-lg border border-blue-800">Sign up for newsletter</div>
-                        <div class="p-4 bg-blue-900/30 rounded-lg border border-blue-800">Register Account to Login
-                            &amp; Logout</div>
+                        <div class="p-4 bg-blue-900/30 rounded-lg border border-blue-800 text-white">Scoring</div>
+                        <div class="p-4 bg-blue-900/30 rounded-lg border border-blue-800 text-white">Score History</div>
+                        <div class="p-4 bg-blue-900/30 rounded-lg border border-blue-800 text-white">Sound Effects</div>
+                        <div class="p-4 bg-blue-900/30 rounded-lg border border-blue-800 text-white">Responsive Layout</div>
                     </div>
                 </section>
 
                 <section>
                     <h3 class="text-2xl font-bold mb-4 font-heading text-blue-400">Project Gallery</h3>
                     <div class="grid md:grid-cols-2 gap-4">
-                        <img src="/public/assets/screenshots/miners-lantern-home-page.png" alt="Project screenshot 1"
+                        <img src="/public/assets/screenshots/rpsls-game-page.png" alt="Project screenshot 1"
                             class="rounded-lg border border-blue-800 w-full">
-                        <img src="/public/assets/screenshots/miners-lantern-events.png" alt="Project screenshot 2"
+                        <img src="/public/assets/screenshots/rpsls-rules.png" alt="Project screenshot 2"
                             class="rounded-lg border border-blue-800 w-full">
-                        <img src="/public/assets/screenshots/miners-lantern-about.png" alt="Project screenshot 3"
+                        <img src="/public/assets/screenshots/rpsls-game-history.png" alt="Project screenshot 3"
                             class="rounded-lg border border-blue-800 w-full">
-                        <img src="/public/assets/screenshots/miners-lantern-bookings.png" alt="Project screenshot 3"
+                        <img src="/public/assets/screenshots/rpsls-credits.png" alt="Project screenshot 3"
                             class="rounded-lg border border-blue-800 w-full">
                     </div>
                 </section>
@@ -112,11 +110,11 @@
 
 <script setup>
 useHead({
-    title: 'The Miners Lantern Hackathon Project',
+    title: 'Rock Paper Scissors Lizard Spock Project',
     meta: [
         {
             name: 'description',
-            content: 'Miners Lantern Hackathon Project part of CodeInstitute BootCamp'
+            content: 'Rock Paper Scissors Lizard Spock Hackathon Project part of CodeInstitute BootCamp'
         }
     ]
 })

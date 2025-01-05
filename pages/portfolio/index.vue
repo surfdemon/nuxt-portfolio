@@ -11,6 +11,55 @@
     <div class="max-w-4xl mx-auto px-4 py-16">
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
+
+        <a href="/portfolio/freeslots4u/"
+          class="group bg-blue-900/20 rounded-xl overflow-hidden border border-blue-800 hover:border-blue-600 transition flex flex-col">
+          <div class="relative h-48 overflow-hidden">
+            <img src="" alt="" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" >
+            </div>
+          </div>
+
+          <div class="p-6 flex-grow">
+            <div class="flex justify-between items-start mb-4">
+              <h3 class="text-xl font-bold font-heading">
+                FreeSlots4U.com
+              </h3>
+            </div>
+
+            <p class="text-gray-300 mb-4 ">
+              A site that I worked on and managed for over 14 years. 
+            </p>
+
+            <div class="flex flex-wrap gap-2">
+              <span
+                class="text-sm px-3 py-1 bg-blue-900/40 rounded-full text-blue-200 border border-blue-700">HTML</span>
+              <span
+                class="text-sm px-3 py-1 bg-blue-900/40 rounded-full text-blue-200 border border-blue-700">CSS</span>
+              <span
+                class="text-sm px-3 py-1 bg-blue-900/40 rounded-full text-blue-200 border border-blue-700">Javascript</span>
+              <span
+                class="text-sm px-3 py-1 bg-blue-900/40 rounded-full text-blue-200 border border-blue-700">PHP</span>
+              <span
+                class="text-sm px-3 py-1 bg-blue-900/40 rounded-full text-blue-200 border border-blue-700">MySQL</span>
+              <span
+                class="text-sm px-3 py-1 bg-blue-900/40 rounded-full text-blue-200 border border-blue-700">CentOS</span>
+            </div>
+          </div>
+
+          <div class="p-6 pt-0 mt-4">
+            <div class="text-blue-400 group-hover:text-blue-300 transition flex items-center">
+              View Project Details
+              <span class="ml-2 group-hover:translate-x-1 transition-transform">→</span>
+            </div>
+          </div>
+        </a>
+
+
+
+
+
+
         <a href="/portfolio/portofolio-website/"
           class="group bg-blue-900/20 rounded-xl overflow-hidden border border-blue-800 hover:border-blue-600 transition flex flex-col">
           <div class="relative h-48 overflow-hidden">
@@ -140,7 +189,7 @@
         <a href="/portfolio/rock-paper-scissors-lizard-spock/"
           class="group bg-blue-900/20 rounded-xl overflow-hidden border border-blue-800 hover:border-blue-600 transition flex flex-col">
           <div class="relative h-48 overflow-hidden">
-            <img src="" alt="" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" />
+            <img src="/public/assets/screenshots/rpsls-responsive.png" alt="Rock Paper Scissors Lizzard Spock Responsive Screenshots" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" >
               </div>
           </div>
@@ -187,7 +236,7 @@
         <a href="/portfolio/mind-body-care/"
           class="group bg-blue-900/20 rounded-xl overflow-hidden border border-blue-800 hover:border-blue-600 transition flex flex-col">
           <div class="relative h-48 overflow-hidden">
-            <img src="" alt="" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" />
+            <img src="/public/assets/screenshots/mind-body-care-screenshots.png" alt="Mind Body Care Responsive Screenshots" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent">
           </div>
           </div>
