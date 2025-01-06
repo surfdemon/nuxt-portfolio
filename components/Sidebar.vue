@@ -20,7 +20,7 @@
             <nuxt-link to="/contact" class="p-3 my-2 rounded-md text-center">Contact</nuxt-link>
           </li>
           <li class="my-5 text-center">
-            <nuxt-link to="/portfolio" class="p-3 my-2 rounded-md text-center">Portfolio</nuxt-link>
+            <nuxt-link to="/portfolio" class="p-3 my-2 rounded-md text-center">Projects</nuxt-link>
           </li>
         </ul>
       </nav>

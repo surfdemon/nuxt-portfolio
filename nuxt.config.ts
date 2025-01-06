@@ -4,7 +4,27 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts',
     '@nuxtjs/tailwindcss',
     '@nuxt/content',
+    'nuxt-mail'
+        
   ],
+  runtimeConfig: { 
+    mail: {
+      message: {
+        to: process.env.NUXT_MAIL_TARGET,
+      },
+      smtp: { 
+        host: process.env.NUXT_MAIL_SMTP,
+        port: process.env.NUXT_MAIL_PORT,
+        secure: true,
+        auth: {
+          user: process.env.NUXT_MAIL_USERNAME,
+          pass: process.env.NUXT_MAIL_PASSWORD
+        },
+      },
+    },
+  },
+  
+
   content: { 
 
   },
@@ -23,5 +43,5 @@ export default defineNuxtConfig({
     useStylesheet: true
   },
 
-  compatibilityDate: '2024-12-19'
+  compatibilityDate: '2024-12-19',
 });
