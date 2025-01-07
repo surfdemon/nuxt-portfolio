@@ -8,6 +8,13 @@
       </div>
     </div>
 
+    <!-- Notices -->
+    <Transition name="fade">
+      <div v-show="successMsg" class="bg-blue-900/20 rounded-lg border border-blue-800 mx-auto max-w-4xl px-4 py-7 my-6 text-center text-green-400 font-bold text-xl">
+        Thank you I will get back to you as soon as possible.
+      </div>
+    </Transition>
+
     <!-- Contact Content -->
     <div class="max-w-4xl mx-auto px-4 pb-10">
       <h2 class="text-2xl font-extrabold text-blue-400 text-center m-5">
@@ -120,12 +127,14 @@
 
 <script setup>
 import { ref } from 'vue';
+
 const mail = useMail();
 const form = ref({
   name: '',
   email: '',
   message: ''
 });
+const successMsg = ref(false);
 
 const handleSubmit = async (event) => {
   const myForm = event.target;
@@ -137,26 +146,20 @@ console.log('formData is ' + formData);
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
     body: new URLSearchParams(formData).toString()
   })
-    .then(() => alert("Thank you for your submission"))
+    .then(() => {
+      form.value = {
+        name: '',
+        email: '',
+        message: ''
+      };
+      successMsg.value = true;
+      setTimeout(() => {
+        successMsg.value = false;
+      }, 6000);
+      console.log('successMsg is ' + successMsg);
+    })
     .catch(error => alert(error));
- 
-  // try {
-  //   await mail.send({
-  //     from: form.value.email,
-  //     name: form.value.name,
-  //     subject: form.value.subject,
-  //     text: form.value.message
-  //   });
-  //   console.log('Form submitted:', form.value);
-  //   // Optionally, reset the form
-  //   form.value = {
-  //     name: '',
-  //     email: '',
-  //     message: ''
-  //   };
-  // } catch (error) {
-  //   console.error('Error sending email:', error);
-  // }
+
 };
 
 useHead({
@@ -172,5 +175,13 @@ useHead({
 </script>
 
 <style>
+.fade-enter-active, 
+.fade-leave-active { 
+  transition: opacity 0.5s ease;
+}
 
+.fade-enter-from, 
+.fade-lave-to { 
+  opacity: 0;
+}
 </style>
