@@ -53,12 +53,13 @@
 
         <!-- Contact Form -->
         <div class="md:col-span-3 bg-blue-900/20 p-8 rounded-lg border border-blue-800">
-          <form class="space-y-6" name="contact" method="POST" data-netlify="true" netlify data-netlify-honeypot="bot-field">
+          <form class="space-y-6" name="contact" method="POST" data-netlify="true" netlify data-netlify-honeypot="bot-field" @submit.prevent="handleSubmit">
             <input type="hidden" name="form-name" value="contact" />
             <div class="grid md:grid-cols-2 gap-6">
               <div>
                 <label class="block mb-2 text-blue-300">Name</label>
                 <input
+                  v-model="form.name"
                   name="name"
                   type="text"
                   required
@@ -69,6 +70,7 @@
               <div>
                 <label class="block mb-2 text-blue-300">Email</label>
                 <input
+                  v-model="form.email"
                   name="email"
                   type="email"
                   required
@@ -81,6 +83,7 @@
             <div>
               <label class="block mb-2 text-blue-300">Subject</label>
               <input
+                v-model="form.subject"
                 name="subject"
                 type="text"
                 required
@@ -92,6 +95,7 @@
             <div>
               <label class="block mb-2 text-blue-300">Message</label>
               <textarea
+                v-model="form.message"
                 name="message"
                 required
                 rows="6"
@@ -123,24 +127,36 @@ const form = ref({
   message: ''
 });
 
-const handleSubmit = async () => {
-  try {
-    await mail.send({
-      from: form.value.email,
-      name: form.value.name,
-      subject: form.value.subject,
-      text: form.value.message
-    });
-    console.log('Form submitted:', form.value);
-    // Optionally, reset the form
-    form.value = {
-      name: '',
-      email: '',
-      message: ''
-    };
-  } catch (error) {
-    console.error('Error sending email:', error);
-  }
+const handleSubmit = async (event) => {
+  const myForm = event.target;
+  const formData = new FormData(myForm);
+console.log('form is ' + myForm);
+console.log('formData is ' + formData);
+  fetch("/", {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: new URLSearchParams(formData).toString()
+  })
+    .then(() => alert("Thank you for your submission"))
+    .catch(error => alert(error));
+ 
+  // try {
+  //   await mail.send({
+  //     from: form.value.email,
+  //     name: form.value.name,
+  //     subject: form.value.subject,
+  //     text: form.value.message
+  //   });
+  //   console.log('Form submitted:', form.value);
+  //   // Optionally, reset the form
+  //   form.value = {
+  //     name: '',
+  //     email: '',
+  //     message: ''
+  //   };
+  // } catch (error) {
+  //   console.error('Error sending email:', error);
+  // }
 };
 
 useHead({
