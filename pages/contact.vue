@@ -53,12 +53,12 @@
 
         <!-- Contact Form -->
         <div class="md:col-span-3 bg-blue-900/20 p-8 rounded-lg border border-blue-800">
-          <form @submit.prevent="handleSubmit" class="space-y-6">
+          <form class="space-y-6" netlify>
             <div class="grid md:grid-cols-2 gap-6">
               <div>
                 <label class="block mb-2 text-blue-300">Name</label>
                 <input
-                  v-model="form.name"
+                  name="name"
                   type="text"
                   required
                   class="w-full px-4 py-3 bg-blue-900/30 rounded-lg border border-blue-800 
@@ -68,7 +68,7 @@
               <div>
                 <label class="block mb-2 text-blue-300">Email</label>
                 <input
-                  v-model="form.email"
+                  name="email"
                   type="email"
                   required
                   class="w-full px-4 py-3 bg-blue-900/30 rounded-lg border border-blue-800 
@@ -80,7 +80,7 @@
             <div>
               <label class="block mb-2 text-blue-300">Subject</label>
               <input
-                v-model="form.subject"
+                name="subject"
                 type="text"
                 required
                 class="w-full px-4 py-3 bg-blue-900/30 rounded-lg border border-blue-800 
@@ -91,7 +91,7 @@
             <div>
               <label class="block mb-2 text-blue-300">Message</label>
               <textarea
-                v-model="form.message"
+                name="message"
                 required
                 rows="6"
                 class="w-full px-4 py-3 bg-blue-900/30 rounded-lg border border-blue-800 
