@@ -53,7 +53,7 @@
 
         <!-- Contact Form -->
         <div class="md:col-span-3 bg-blue-900/20 p-8 rounded-lg border border-blue-800">
-          <form class="space-y-6" name="contact" method="post" data-netlify="true">
+          <form class="space-y-6" name="contact" method="post" data-netlify="true" netlify>
             <input type="hidden" name="form-name" value="contact" />
             <div class="grid md:grid-cols-2 gap-6">
               <div>
