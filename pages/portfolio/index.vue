@@ -14,7 +14,7 @@
         <a href="/portfolio/freeslots4u/"
           class="group bg-blue-900/20 rounded-xl overflow-hidden border border-blue-800 hover:border-blue-600 transition flex flex-col">
           <div class="relative h-48 overflow-hidden">
-            <img src="" alt="" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" />
+            <img src="/public/assets/screenshots/freeslots4u-responsive-screenshots.png" alt="" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent">
             </div>
           </div>
@@ -103,7 +103,7 @@
         <a href="/portfolio/portofolio-website/"
           class="group bg-blue-900/20 rounded-xl overflow-hidden border border-blue-800 hover:border-blue-600 transition flex flex-col">
           <div class="relative h-48 overflow-hidden">
-            <img src="" alt="" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" />
+            <img src="/public/assets/screenshots/portfolio-site-responsive-screenshots.png" alt="" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent">
             </div>
           </div>
