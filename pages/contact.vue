@@ -9,9 +9,14 @@
     </div>
 
     <!-- Notices -->
-    <Transition name="fade">
-      <div v-show="successMsg" class="bg-blue-900/20 rounded-lg border border-blue-800 mx-auto max-w-4xl px-4 py-7 my-6 text-center text-green-400 font-bold text-xl">
+    <Transition name="fadeSuccess">
+      <div v-if="successMsg" class="bg-blue-900/20 rounded-lg border border-blue-800 mx-auto max-w-4xl px-4 py-7 my-6 text-center text-green-400 font-bold text-xl">
         Thank you I will get back to you as soon as possible.
+      </div>
+    </Transition>
+    <Transition name="fadeError">
+      <div v-if="errorMsg" class="bg-blue-900/20 rounded-lg border border-blue-800 mx-auto max-w-4xl px-4 py-7 my-6 text-center text-red-400 font-bold text-xl">
+        Sorry there was an error sending your message. Please try again.
       </div>
     </Transition>
 
@@ -135,6 +140,7 @@ const form = ref({
   message: ''
 });
 const successMsg = ref(false);
+const errorMsg = ref(false);
 
 const handleSubmit = async (event) => {
   const myForm = event.target;
@@ -158,7 +164,12 @@ console.log('formData is ' + formData);
       }, 6000);
       console.log('successMsg is ' + successMsg);
     })
-    .catch(error => alert(error));
+    .catch(error => {
+      errorMsg.value = true; 
+      setTimeout(() => {
+        errorMsg.value = false;
+      }, 6000);
+    });
 
 };
 
@@ -175,13 +186,16 @@ useHead({
 </script>
 
 <style>
-.fade-enter-active, 
-.fade-leave-active { 
-  transition: opacity 0.5s ease;
+.fadeSuccess-enter-active, .fadeSuccess-leave-active {
+  transition: opacity 0.8s ease-in-out;
 }
-
-.fade-enter-from, 
-.fade-lave-to { 
+.fadeSuccess-enter-from, .fadeSuccess-leave-to {
+  opacity: 0;
+}
+.fadeError-enter-active, .fadeError-leave-active {
+  transition: opacity 0.8s ease-in-out;
+}
+.fadeError-enter-from, .fadeError-leave-to {
   opacity: 0;
 }
 </style>
