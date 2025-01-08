@@ -1,10 +1,12 @@
 <template>
   <div class="min-h-screen bg-black text-white font-sans">
     <!-- Hero Section -->
-    <div class="bg-gradient-to-br from-black to-blue-900 py-20">
-      <div class="max-w-4xl mx-auto px-4">
-        <h1 class="text-4xl font-bold mb-6 font-heading text-center">Get In Touch</h1>
-  
+    <div class="bg-gradient-to-br from-black to-blue-900 py-20 h-72">
+      <div class="max-w-6xl mx-auto px-4 py-5">
+        <h1 class="text-5xl font-bold mb-6 font-heading text-center">Get In Touch</h1>
+        <p class="text-xl text-blue-300 text-center">
+            Have a question or want to work together? I'd love to hear from you.
+      </p>
       </div>
     </div>
 
@@ -21,10 +23,7 @@
     </Transition>
 
     <!-- Contact Content -->
-    <div class="max-w-4xl mx-auto px-4 pb-10">
-      <h2 class="text-2xl font-extrabold text-blue-400 text-center m-5">
-          Have a question or want to work together? I'd love to hear from you.
-    </h2>
+    <div class="max-w-6xl mx-auto px-4 py-16">
       <div class="grid md:grid-cols-5 gap-8">
         <!-- Contact Info -->
         <div class="md:col-span-2 bg-blue-900/20 p-8 rounded-lg border border-blue-800">

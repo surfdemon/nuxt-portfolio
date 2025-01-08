@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen bg-black text-white font-sans">
     <!-- Hero Section -->
-    <div class="bg-gradient-to-br from-black to-blue-900 py-20">
+    <div class="bg-gradient-to-br from-black to-blue-900 py-6 h-72" >
       <div class="max-w-6xl mx-auto px-4">
         <div class="grid md:grid-cols-2 gap-12 items-center">
           <div class="text-center md:text-left">

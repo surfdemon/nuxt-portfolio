@@ -1,11 +1,11 @@
 <template>
     <div class="bg-black">
 
-        <div class="bg-gradient-to-br from-black to-blue-900 py-20">
-            <h1 class="text-4xl font-extrabold text-white text-center m-5">The Miners Lantern</h1>
+        <div class="bg-gradient-to-br from-black to-blue-900 py-20 h-72">
+            <h1 class="text-5xl font-extrabold text-white text-center m-5">The Miners Lantern</h1>
         </div>
 
-        <div class="max-w-4xl mx-auto px-4 py-12 ">
+        <div class="max-w-6xl mx-auto px-4 py-12 ">
             <div class="bg-blue-900/20 rounded-lg border border-blue-800 p-8 shadow-xl">
 
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">

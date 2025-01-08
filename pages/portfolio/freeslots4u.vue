@@ -1,17 +1,17 @@
 <template>
     <div class="bg-black">
 
-        <div class="bg-gradient-to-br from-black to-blue-900 py-20">
-            <h1 class="text-4xl font-extrabold text-white text-center m-5">Gainpace Property</h1>
+        <div class="bg-gradient-to-br from-black to-blue-900 py-20 h-72">
+            <h1 class="text-5xl font-extrabold text-white text-center m-5">Freeslots4u</h1>
         </div>
 
-        <div class="max-w-4xl mx-auto px-4 py-12 ">
+        <div class="max-w-6xl mx-auto px-4 py-12 ">
             <div class="bg-blue-900/20 rounded-lg border border-blue-800 p-8 shadow-xl">
 
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
                     <div class="text-center p-4 bg-blue-900/30 rounded-lg">
                         <div class="text-blue-300 mb-1">Duration</div>
-                        <div class="font-semiboldi text-white">14 Days</div>
+                        <div class="font-semiboldi text-white">N/A</div>
                     </div>
                     <div class="text-center p-4 bg-blue-900/30 rounded-lg">
                         <div class="text-blue-300 mb-1">Role</div>
@@ -27,61 +27,54 @@
                     </div>
                 </div>
 
-                <img src="/public/assets/screenshots/gainpace-property-responsive.png"
-                    alt="Gainpace Property Responsive Screenshots">
+                <img src="/public/assets/screenshots/freeslots4u-responsive-screenshots.png"
+                    alt="Freeslots4u Responsive Screenshots">
 
                 <h2 class="text-3xl font-extrabold text-blue-400 text-center m-5">Project Overview</h2>
 
                 <div class=" justify-center items-center">
                     <p class="m-8 text-white">
-                        The Gainpace Property site was created as my capstone project as part of a 16-week intensive
-                        Full Stack Developer BootCamp with <a href="https://codeinstitute.net"
-                            target="_blank">CodeInstitute</a>, organised by <a href="https://www.headforwards.com"
-                            target="_blank">Headforwards</a>.
+                        freeslots4u.com is one of the websites that I worked on while at Atelm Ltd. 
+                        The site is a free slots site that offers free to play slots games. All the games have monthly leaderboards and 
+                        the site features a tournament system that allows competitions to be run on the site.  
+                        The site has been around for over 10 years and has a large following. The site is monetized through 
+                        advertising and affiliate links. I was responsible for everything from setting up the dedicated server 
+                        to having content written for the site. Over the years, I have moved the site to different servers and 
+                        have made changes to the site as needed. This included moving it from a manage hosting account to a self 
+                        managed virtual servers and then to a self managed dedicated server. 
                     </p>
                     <p class="m-8 text-white">
-                        The core criteria for the project was that the site had to be built with Django, have at least one
-                        custom model and have CRUD functionality on the front end.
+                        The server runs both Apache and Nginx due to the games tournament system requiring an old version of PHP and 
+                        the rest of the site requiring a newer version of PHP as it uses Maxmind. I implemented Maxmind because we 
+                        required the ability to geo target parts of the site to ensure that the site stayed compliant. 
+                        The tournament system and the games themselves are the only parts that I didn't create, although I supported both of 
+                        them and ended up fixing them when needed. Originally the games were Flash games and I co-ordinated our graphics designer to 
+                        recreate images for HTML5 versions of the games and then hired freelance developers to convert all the games to HTML5 
+                        and create new HTML5 games. I was responsible for testing the games and putting the games live on the website.
                     </p>
                     <p class="m-8 text-white">
-                        The site allows members to advertise their properties that they have available for
-                        rent. It then allows visitors to request a viewing by using a link to a Google form.
+                        
                     </p>
                 </div>
 
-                <section class="mb-12">
-                    <h3 class="text-2xl font-bold mb-4 font-heading text-blue-400">Project Links</h3>
-                    <div class="flex gap-4">
-                        <a href="https://github.com/surfdemon/gainpace-property/" target="_blank"
-                            rel="noopener noreferrer"
-                            class="flex-1 p-4 bg-blue-900/30 rounded-lg border border-blue-800 hover:bg-blue-800/30 transition text-center">
-                            <div class="text-blue-300 mb-2">Source Code</div>
-                            <div class="font-semibold text-white">View on GitHub</div>
-                        </a>
-                        <a href="https://gainpace-property-aa2d5954f843.herokuapp.com/" target="_blank"
-                            rel="noopener noreferrer"
-                            class="flex-1 p-4 bg-blue-900/30 rounded-lg border border-blue-800 hover:bg-blue-800/30 transition text-center">
-                            <div class="text-blue-300 mb-2">Live Demo</div>
-                            <div class="font-semibold text-white">View Project</div>
-                        </a>
-                    </div>
-                </section>
 
                 <section class="mb-12">
                     <h3 class="text-2xl font-bold mb-4 font-heading text-blue-400">Technologies Used</h3>
                     <div class="flex flex-wrap gap-2">
                         <span
-                            class="px-4 py-2 bg-blue-900/30 rounded-lg border border-blue-700 text-blue-200">Django</span>
+                            class="px-4 py-2 bg-blue-900/30 rounded-lg border border-blue-700 text-blue-200">HTML</span>
                         <span
-                            class="px-4 py-2 bg-blue-900/30 rounded-lg border border-blue-700 text-blue-200">Bootstrap</span>
+                            class="px-4 py-2 bg-blue-900/30 rounded-lg border border-blue-700 text-blue-200">CSS</span>
                         <span
                             class="px-4 py-2 bg-blue-900/30 rounded-lg border border-blue-700 text-blue-200">Javascript</span>
-                        <span class="px-4 py-2 bg-blue-900/30 rounded-lg border border-blue-700 text-blue-200"><a
-                                href="https://www.heroku.com/" target="_blank">Heroku</a></span>
-                        <span class="px-4 py-2 bg-blue-900/30 rounded-lg border border-blue-700 text-blue-200"><a
-                                href="https://cloudinary.com/" target="_blank">Cloudinary</a></span>
-                        <span class="px-4 py-2 bg-blue-900/30 rounded-lg border border-blue-700 text-blue-200"><a
-                                href="https://neon.tech/" target="_blank">Neon.tech</a></span>
+                        <span
+                            class="px-4 py-2 bg-blue-900/30 rounded-lg border border-blue-700 text-blue-200">Apache</span>
+                        <span
+                            class="px-4 py-2 bg-blue-900/30 rounded-lg border border-blue-700 text-blue-200">Nginx</span>
+                        <span
+                            class="px-4 py-2 bg-blue-900/30 rounded-lg border border-blue-700 text-blue-200">MySQL</span>
+                        <span
+                            class="px-4 py-2 bg-blue-900/30 rounded-lg border border-blue-700 text-blue-200"><a href="https://www.maxmind.com/en/home" target="_blank">MaxMind</a></span>
                     </div>
                 </section>
 

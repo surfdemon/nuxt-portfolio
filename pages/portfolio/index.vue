@@ -1,14 +1,17 @@
 <template>
   <div class="min-h-screen bg-black text-white font-sans">
-    <div class="bg-gradient-to-br from-black to-blue-900 py-20">
-      <div class="max-w-6xl mx-auto px-4">
-        <h1 class="text-4xl font-bold mb-6 font-heading text-center">
+    <div class="bg-gradient-to-br from-black to-blue-900 py-20 h-72">
+      <div class="max-w-6xl mx-auto px-4 py-5">
+        <h1 class="text-5xl font-bold mb-6 font-heading text-center">
           My Projects
         </h1>
+        <p class="text-lg text-blue-300 text-center">
+          Here are some of the projects I've worked on over the years.
+        </p>
       </div>
     </div>
 
-    <div class="max-w-4xl mx-auto px-4 py-16">
+    <div class="max-w-6xl mx-auto px-4 py-16">
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
         <a href="/portfolio/freeslots4u/"
