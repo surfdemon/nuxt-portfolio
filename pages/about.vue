@@ -10,7 +10,7 @@
               Software Engineer &amp; Problem Solver with a passion for creating elegant solutions
             </p>
           </div>
-          <div class="flex justify-center">
+          <div class=" hidden d-none md:flex justify-center">
             <img 
               src="/assets/img/rob-on-beach.png" 
               alt="Profile"
