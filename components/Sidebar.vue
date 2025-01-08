@@ -11,16 +11,16 @@
       >
         <ul>
           <li class="my-5 text-center">
-            <nuxt-link to="/" class="p-3 my-2 rounded-md text-center">Home</nuxt-link>
+            <nuxt-link to="/" class="p-3 my-2 rounded-md text-center" @click="toggleSidebar">Home</nuxt-link>
           </li>
           <li class="my-5 text-center">
-            <nuxt-link to="/about" class="p-3 my-2 rounded-md text-center">About</nuxt-link>
+            <nuxt-link to="/about" class="p-3 my-2 rounded-md text-center" @click="toggleSidebar">About</nuxt-link>
           </li>
           <li class="my-5 text-center">
-            <nuxt-link to="/contact" class="p-3 my-2 rounded-md text-center">Contact</nuxt-link>
+            <nuxt-link to="/contact" class="p-3 my-2 rounded-md text-center" @click="toggleSidebar">Contact</nuxt-link>
           </li>
           <li class="my-5 text-center">
-            <nuxt-link to="/portfolio" class="p-3 my-2 rounded-md text-center">Projects</nuxt-link>
+            <nuxt-link to="/portfolio" class="p-3 my-2 rounded-md text-center" @click="toggleSidebar">Projects</nuxt-link>
           </li>
         </ul>
       </nav>
