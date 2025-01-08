@@ -55,6 +55,22 @@
                     <p class="m-8 text-white">
                         
                     </p>
+                    <p class="m-8 text-white">
+                        
+                    </p>
+                    <p class="m-8 text-white">
+                        
+                    </p>
+                    <p class="m-8 text-white">
+                        
+                    </p>
+                    <p class="m-8 text-white">
+                        
+                    </p>
+                    <p class="m-8 text-white">
+                        
+                    </p>
+
                 </div>
 
 
@@ -109,11 +125,11 @@
 
 <script setup>
 useHead({
-    title: 'Gainpace Property Capstone Project',
+    title: 'Freeslots4u Website',
     meta: [
         {
             name: 'description',
-            content: 'Gainpace Property Capstone Project part of CodeInstitute BootCamp'
+            content: 'Website that I worked on while at Atelm Ltd.'
         }
     ]
 })
