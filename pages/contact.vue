@@ -158,10 +158,11 @@ console.log('formData is ' + formData);
         message: ''
       };
       successMsg.value = true;
+      window.scrollTo(0,0);
       setTimeout(() => {
         successMsg.value = false;
       }, 6000);
-      console.log('successMsg is ' + successMsg);
+
     })
     .catch(error => {
       errorMsg.value = true; 
