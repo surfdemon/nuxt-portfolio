@@ -27,36 +27,42 @@
                     </div>
                 </div>
 
-                <img src="/public/assets/screenshots/freeslots4u-responsive-screenshots.png"
+                <img class="mx-auto" src="/public/assets/screenshots/freeslots4u-responsive-screenshots.png"
                     alt="Freeslots4u Responsive Screenshots">
 
                 <h2 class="text-3xl font-extrabold text-blue-400 text-center m-5">Project Overview</h2>
 
                 <div class=" justify-center items-center">
                     <p class="m-8 text-white">
-                        freeslots4u.com is one of the websites that I worked on while at Atelm Ltd. 
+                        freeslots4u.com is one of the websites that I worked on while working at Atelm Ltd. 
                         The site is a free slots site that offers free to play slots games. All the games have monthly leaderboards and 
                         the site features a tournament system that allows competitions to be run on the site.  
-                        The site has been around for over 10 years and has a large following. The site is monetized through 
-                        advertising and affiliate links. I was responsible for everything from setting up the dedicated server 
-                        to having content written for the site. Over the years, I have moved the site to different servers and 
-                        have made changes to the site as needed. This included moving it from a manage hosting account to a self 
-                        managed virtual servers and then to a self managed dedicated server. 
+                        The site has been around for over 10 years. The site is monetized through advertising and affiliate links. 
+                        I was responsible for everything from setting up the dedicated server to having content written for the site. 
+                        Over the years, I have moved the site to different servers and have made changes to the site as needed. 
+                        This included moving it from a shared hosting account to a self managed virtual servers and then to a self 
+                        managed dedicated server. 
                     </p>
                     <p class="m-8 text-white">
-                        The server runs both Apache and Nginx due to the games tournament system requiring an old version of PHP and 
+                        The site runs on both Apache and Nginx due to the games tournament system requiring an old version of PHP and 
                         the rest of the site requiring a newer version of PHP as it uses Maxmind. I implemented Maxmind because we 
-                        required the ability to geo target parts of the site to ensure that the site stayed compliant. 
+                        required the ability to geo target parts of the site to ensure that the site stayed compliant. Maxmind moved with the times 
+                        and started using newer versions of PHP which meant that we had to run the site on a newer version of PHP. But my 
+                        directors never gave me the go ahead to update the tournament system to work with the newer version of PHP.
                         The tournament system and the games themselves are the only parts that I didn't create, although I supported both of 
-                        them and ended up fixing them when needed. Originally the games were Flash games and I co-ordinated our graphics designer to 
-                        recreate images for HTML5 versions of the games and then hired freelance developers to convert all the games to HTML5 
-                        and create new HTML5 games. I was responsible for testing the games and putting the games live on the website.
+                        them and ended up fixing them when needed. Originally the games were Flash games and I co-ordinated with our graphics 
+                        designer to recreate images for HTML5 versions of the games and then hired freelance developers to convert all
+                        the games to HTML5 and create new HTML5 games. I was responsible for testing the games and putting the games live 
+                        on the website.
                     </p>
                     <p class="m-8 text-white">
-                        
+                        The pages use server side includes (SSI) to include sectionsn based on geo location of the visitors. This allowed 
+                        for the pages to still be HTML pages, which was a requirement for the site.
                     </p>
                     <p class="m-8 text-white">
-                        
+                        The site scores 90 and abave on Google PageSpeed Insights for every metric with most of them scoring 100 and is 
+                        fully responsive.
+
                     </p>
                     <p class="m-8 text-white">
                         

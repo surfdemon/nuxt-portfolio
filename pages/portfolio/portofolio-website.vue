@@ -27,7 +27,7 @@
                     </div>
                 </div>
 
-                <img src="/public/assets/screenshots/portfolio-site-responsive-screenshots.png"
+                <img class="mx-auto" src="/public/assets/screenshots/portfolio-site-responsive-screenshots.png"
                     alt="Gainpace Property Responsive Screenshots">
 
                 <h2 class="text-3xl font-extrabold text-blue-400 text-center m-5">Project Overview</h2>

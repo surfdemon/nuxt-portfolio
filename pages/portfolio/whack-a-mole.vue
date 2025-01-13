@@ -27,7 +27,7 @@
                     </div>
                 </div>
 
-                <img src="/public/assets/screenshots/whack-a-mole-responsive.png" alt="">
+                <img class="mx-auto" src="/public/assets/screenshots/whack-a-mole-responsive.png" alt="">
 
                 <h2 class="text-3xl font-extrabold text-blue-400 text-center m-5">Project Overview</h2>
 

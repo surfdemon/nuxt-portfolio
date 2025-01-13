@@ -27,7 +27,7 @@
                     </div>
                 </div>
 
-                <img src="/public/assets/screenshots/mind-body-care-screenshots.png" alt="Mind Body Care Screenshots">
+                <img class="mx-auto" src="/public/assets/screenshots/mind-body-care-screenshots.png" alt="Mind Body Care Screenshots">
 
                 <h2 class="text-3xl font-extrabold text-blue-400 text-center m-5">Project Overview</h2>
 
