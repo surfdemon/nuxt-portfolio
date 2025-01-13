@@ -2,10 +2,10 @@
   <div class="min-h-screen bg-black text-white font-sans">
     <!-- Hero Section -->
     <div class="bg-gradient-to-br from-black to-blue-900 py-6 h-72" >
-      <div class="max-w-6xl mx-auto px-4">
+      <div class="max-w-6xl mx-auto px-4 py-5">
         <div class="grid md:grid-cols-2 gap-12 items-center">
-          <div class="text-center md:text-left">
-            <h1 class="text-5xl font-bold mb-6 font-heading">About Me</h1>
+          <div class="text-center py-12 md:pt-7 md:text-left">
+            <h1 class="text-5xl pt-2 md:pt-0 font-bold mb-6 font-heading">About Me</h1>
             <p class="text-xl text-blue-300">
               Software Engineer &amp; Problem Solver with a passion for creating elegant solutions
             </p>
@@ -37,24 +37,6 @@
               freelance developers.
             </p>              
           </div>
-          <!-- <div class="grid grid-cols-2 gap-4">
-            <div class="bg-blue-900/20 p-4 rounded-lg border border-blue-800 text-center">
-              <div class="text-3xl font-bold text-blue-400">14+</div>
-              <div class="text-gray-300">Years Experience</div>
-            </div>
-            <div class="bg-blue-900/20 p-4 rounded-lg border border-blue-800 text-center">
-              <div class="text-3xl font-bold text-blue-400">25+</div>
-              <div class="text-gray-300">Projects Completed</div>
-            </div>
-            <div class="bg-blue-900/20 p-4 rounded-lg border border-blue-800 text-center">
-              <div class="text-3xl font-bold text-blue-400">30+</div>
-              <div class="text-gray-300">Happy Clients</div>
-            </div>
-            <div class="bg-blue-900/20 p-4 rounded-lg border border-blue-800 text-center">
-              <div class="text-3xl font-bold text-blue-400">15+</div>
-              <div class="text-gray-300">Technologies</div>
-            </div>
-          </div> -->
         </div>
       </section>
 
