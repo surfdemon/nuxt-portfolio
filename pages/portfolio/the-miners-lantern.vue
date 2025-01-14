@@ -33,11 +33,11 @@
                 
                 <div class=" justify-center items-center">
                     <p class="m-8 text-white">
-                        The miners lantern was created as part of a hackathon. It was part of a 16-week intensive Full
+                        The Miners Lantern project was created as part of a hackathon. It was part of a 16-week intensive Full
                         Stack Developer BootCamp with <a href="https://codeinstitute.net"
                             target="_blank">CodeInstitute</a>, organised by <a href="https://www.headforwards.com"
-                            target="_blank">Headforwards</a>. There was 4 developers that worked on the project, each
-                        taking a part of the project and helping each other.
+                            target="_blank">Headforwards</a>. Four developers worked on the project, each
+                        contributing to the project and helping each other.
                     </p>
                     <p class="m-8 text-white">The aim of the project was to create a platform, using technologies
                         covered in the bootcamp, for people to book events tickets

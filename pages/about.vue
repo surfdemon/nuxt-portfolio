@@ -7,7 +7,7 @@
           <div class="text-center py-12 md:pt-7 md:text-left">
             <h1 class="text-5xl pt-2 md:pt-0 font-bold mb-6 font-heading">About Me</h1>
             <p class="text-xl text-blue-300">
-              Software Engineer &amp; Problem Solver with a passion for creating elegant solutions
+              Software Engineer &amp; Problem Solver with a passion for creating creative solutions
             </p>
           </div>
           <div class=" hidden d-none md:flex justify-center">
@@ -29,12 +29,11 @@
         <div class="">
           <div class="bg-blue-900/20 p-6 rounded-lg border border-blue-800">
             <p class="text-gray-300 leading-relaxed">
-              With over 22 years experience in technical support, managerial roles, &amp; website 
-              development, I've worked on various projects. Starting out as a installation engineer 
-              I progressed to technical support and then support desk manager. For the past 14 years 
-              I've been working as a technical operations manager running an affiliate company that 
-              had over 50 websites. Building &amp; maintaining all their websites &amp; managing their 
-              freelance developers.
+              With over 22 years of experience in technical support, managerial roles, and website 
+              development, I've worked on various projects. Starting out as an installation engineer 
+              I progressed to technical support and then support desk manager. For 14 years, I've 
+              worked as a technical operations manager for an affiliate company with over 50 
+              websites. I built and maintained all their websites and managed their freelance developers.
             </p>              
           </div>
         </div>
@@ -96,19 +95,19 @@ const experience = [
     title: 'Technical Operations Manager',
     company: 'Atelm Ltd',
     period: '2008 - 2022',
-    description: 'As the technical operations manager I was responsible for the day to day running of the company. I managed a team of developers and a designer and was responsible for the development and maintenance of over 50 websites. The main technologies that i used was HTML, CSS, JavaScript, PHP, & MySQL.'
+    description: 'As the technical operations manager I was responsible for the day-to-day running of the company. I managed a team of developers and a designer and was responsible for the development and maintenance of over 50 websites. The main technologies that I used were HTML, CSS, JavaScript, PHP, and MySQL.'
   },
   {
     title: 'Technical Support & Support Desk Manager',
     company: 'Pericom Ltd & FWBS Ltd',
     period: '2005 - 2008',
-    description: 'Starting off working in technical support I quickly progressed to support desk manager. I was responsible for the day to day running of the support desk and the technical support team. I was also responsible for the SDK support calls, handling calls related to C# and MSSQL customisation problems.'
+    description: 'I started working in technical support and quickly progressed to support desk manager. I was responsible for the day-to-day running of the support desk and the technical support team. I was also responsible for the SDK support calls, handling calls related to C# and MSSQL customisation problems.'
   },
   {
     title: 'Computer Installation Engineer & Technical Support',
     company: 'Synstar International',
     period: '1999 - 2005',
-    description: 'I started out as a computer installation engineer installing computers and networks for various companies. I then progressed to technical support covering both hardware and software support from 1st line through to 3rd line support.'
+    description: 'I started out as a computer installation engineer, installing computers and networks for various companies. I then progressed to technical support, covering hardware and software from first-line to third-line support.'
   },
 ];
 
@@ -130,7 +129,7 @@ const skills = [
 const interests = [
   {
     name: 'Open Source',
-    description: 'Would love to contribute one day'
+    description: 'I would love to contribute one day'
   },
   {
     name: 'Programming',
@@ -142,7 +141,7 @@ const interests = [
   },
   {
     name: 'Helping',
-    description: 'Helping others especially with tech'
+    description: 'Helping others, especially with tech'
   }
 ];
 

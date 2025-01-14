@@ -6,7 +6,7 @@
           My Projects
         </h1>
         <p class="text-lg text-blue-300 text-center">
-          Here are some of the projects I've worked on over the years.
+          Here are some of the projects I have worked on over the years:
         </p>
       </div>
     </div>
@@ -28,7 +28,7 @@
               </h3>
             </div>
             <p class="text-gray-300 mb-4 ">
-              A site that I worked on and managed for over 14 years.
+              A website that I managed and worked on for over 14 years.
             </p>
             <div class="flex flex-wrap gap-2">
               <span
@@ -74,7 +74,7 @@
               </h3>
             </div>
             <p class="text-gray-300 mb-4">
-              A solo capstone project for Full Stack developer bootcamp with Code Institute.
+              A solo capstone project completed during my Full-Stack Developer boot camp with Code Institute.
             </p>
             <div class="flex flex-wrap gap-2">
               <span
@@ -117,7 +117,7 @@
               </h3>
             </div>
             <p class="text-gray-300 mb-4 ">
-              A personal project to show off the projects that I've worked on.
+              A personal project designed to showcase the various projects I have worked on.
             </p>
             <div class="flex flex-wrap gap-2">
               <span
@@ -158,7 +158,7 @@
               </h3>
             </div>
             <p class="text-gray-300 mb-4">
-              A 4 day hackathon, part of a Full Stack developer bootcamp at CodeInstitute.
+              A project created during a 4-day hackathon as part of the Full Stack Developer boot camp at Code Institute.
             </p>
             <div class="flex flex-wrap gap-2">
               <span
@@ -200,7 +200,7 @@
               </h3>
             </div>
             <p class="text-gray-300 mb-4">
-              A 4 day hackathon, part of a Full Stack developer bootcamp at CodeInstitute.
+              A project developed during a 4-day hackathon at the Full Stack Developer boot camp with Code Institute.
             </p>
             <div class="flex flex-wrap gap-2">
               <span
@@ -237,7 +237,7 @@
               </h3>
             </div>
             <p class="text-gray-300 mb-4">
-              A 4 day hackathon, part of a Full Stack developer bootcamp at CodeInstitute.
+              Another project from a 4-day hackathon during the Full Stack Developer boot camp at Code Institute.
             </p>
             <div class="flex flex-wrap gap-2">
               <span
@@ -276,7 +276,7 @@
               </h3>
             </div>
             <p class="text-gray-300 mb-4">
-              A solo project utilising HTML and Bootstrap as part of Full Stack developer bootcamp with Code Institute.
+              A solo project utilising HTML and Bootstrap, completed as part of the Full Stack Developer boot camp with Code Institute.
             </p>
             <div class="flex flex-wrap gap-2">
               <span

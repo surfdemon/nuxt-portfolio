@@ -40,7 +40,7 @@
                             target="_blank">Headforwards</a>.
                     </p>
                     <p class="m-8 text-white">
-                        The core criteria for the project was that the site had to be built with Django, have at least one
+                        The core criteria for the project were that the site had to be built with Django, have at least one
                         custom model and have CRUD functionality on the front end.
                     </p>
                     <p class="m-8 text-white">

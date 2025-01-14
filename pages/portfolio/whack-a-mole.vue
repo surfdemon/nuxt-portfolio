@@ -40,8 +40,8 @@
                             target="_blank">Headforwards</a>.
                     </p>
                     <p class="m-8 text-white">
-                        It was a spontaneous hackathon that was organised by myself and one other student (Nathan). As
-                        we had both got a head of the course, we wanted to do something while waiting for the other
+                        It was a spontaneous hackathon that was organised by one other student (Nathan) and me. As
+                        we had both got ahead of the course, we wanted to do something while waiting for the other
                         students to catch up. We decided to create a Whack a Mole game with a twist.
                         We decided to use a plumber theme and have the moles as plumbers jumping out of pipes.
                     </p>

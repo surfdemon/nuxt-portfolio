@@ -35,12 +35,12 @@
                     <p class="m-8 text-white">
                         For this hackathon, as part of a team of 4, I was nominated to be the lead developer.
                         Our task was to create a game using Bootstrap and Javascript.
-                        We picked to create a game and Rock Paper Scissors Lizard Spock which was made popular by the
-                        big bang theory.
+                        We picked to create a game and Rock Paper Scissors Lizard Spock, which was made popular by the
+                        Big Bang theory.
                     </p>
                     <p class="m-8 text-white">
                         Along with sound effects, we decided to add score history and the ability to add a username to
-                        be logged on the score board.
+                        be logged on the scoreboard.
                         As the game was created using Javascript in the browser, the scores are stored in local storage
                         to mimic the game having a backend.
                     </p>
