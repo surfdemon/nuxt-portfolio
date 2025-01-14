@@ -178,7 +178,7 @@ useHead({
   meta: [
     {
       name: 'description',
-      content: 'This is the contact page'
+      content: 'Contact Rob Beach for any questions or to work together.'
     }
   ]
 })

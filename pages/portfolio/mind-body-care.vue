@@ -33,11 +33,11 @@
 
                 <div class=" justify-center items-center">
                     <p class="m-8 text-white">
-                        Mind Body Care was a solo projcet as part of a 16-week intensive Full
+                        Mind Body Care was a solo project as part of a 16-week intensive Full
                         Stack Developer BootCamp with <a href="https://codeinstitute.net"
                             target="_blank">CodeInstitute</a>, organised by <a href="https://www.headforwards.com"
                             target="_blank">Headforwards</a>. I was tasked with creating a site using just HTML and
-                        Boostrap that had been covored in the course.
+                        Bootstrap that had been covered in the course.
                     </p>
                     <p class="m-8 text-white">
                         The topic for the site is based on a fictional mindfulness group that have meetings. The aim of

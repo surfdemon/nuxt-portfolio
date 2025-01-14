@@ -38,14 +38,14 @@
                         their main sites but sadly just about the only one that is still live. The site is a free slots site 
                         that offers free to play slots games. All the games have monthly leaderboards and the site features a 
                         tournament system that allows competitions to be run on the site. The site also had a newsletter that 
-                        was sent out to subscribers letting them know of the latest compotinions on the site and at the partner 
+                        was sent out to subscribers letting them know of the latest competitions on the site and at the partner 
                         casinos. 
                     </p>
                     <p class="m-8 text-white">
                         The website had to be fully responsive and fully operational on desktop and mobile devices, including the games.
                     </p>
                     <p class="m-8 text-white">
-                        The site has been around for a long time and has gone through various itterations of design. My job title 
+                        The site has been around for a long time and has gone through various iterations of design. My job title 
                         at Atelm Ltd was the technical operations manager. As well as the day to day running of the company and 
                         handling all 3rd parties, I was responsible for all technical aspects of the websites. This included 
                         everything to getting content created, managing hosting, building the sites, testing the sites.
@@ -64,7 +64,7 @@
                     <h3 class="text-blue-400 text-xl">Server</h3>
                     <p class="m-8 text-white">
                         Many of the sites ran on shared hosting accounts across lots of different hosting providers. I was 
-                        responsible for setting up, managing, and fixing problmes with all the shared hosting accounts.
+                        responsible for setting up, managing, and fixing problems with all the shared hosting accounts.
                     </p>
                     <p class="m-8 text-white">   
                         Freeslots4u.com started off on a shared hosting account but as the site grew, it was moved to a virtual 
@@ -74,7 +74,7 @@
                     </p>
                     <p class="m-8 text-whit">
                         I created scripts for as many of the tasks as possible to make it easier to manage the servers. Such as 
-                        cron jobs to backup the datasabase and files to the servers second hard drive. I also setup cron jobs on 
+                        cron jobs to backup the databases and files to the servers second hard drive. I also setup cron jobs on 
                         my machine to backup the database and files from the servers to my machine.
                     </p>
                     <h3 class="text-blue-400 text-xl">Apache &amp; Nginx</h3>
@@ -100,7 +100,7 @@
                     </p>
                     <h3 class="text-blue-400 text-xl">Google PageSpeed Insights</h3>
                     <p class="m-8 text-white">
-                        The site scores mid 90s and abave on Google PageSpeed Insights for every metric with most of them scoring 100
+                        The site scores mid 90s and above on Google PageSpeed Insights for every metric with most of them scoring 100
                         for both mobile and desktop. 
                     </p>
                     <img class="mx-auto mb-10" src="/public/assets/screenshots/freeslots4u-lighthouse-mobile.png"
@@ -109,7 +109,7 @@
                     alt="Freeslots4u Lighthouse Desktop Report">
                     <p class="m-8 text-white">
                         These reports have been run about 6 years after the speed improvement work was done. When the work was done 
-                        all the tests scored 100 and firworks went off on the lighthouse report page.
+                        all the tests scored 100 and fireworks went off on the lighthouse report page.
                     </p>
                     <h3 class="text-blue-400 text-xl">Maxmind</h3>
                     <p class="m-8 text-white">
@@ -117,9 +117,9 @@
                         to ensure that the site stayed compliant.
                     </p>
                     <p class="m-8 text-white">
-                        The objectives were that adverts on the site should only be shown to contries that were elegible for the 
+                        The objectives were that adverts on the site should only be shown to countries that were eligible  for the 
                         offers. Also, if a player managed to land on a page that had a link to a casino that they couldn't play at
-                        for licensering reasons, the link should take them to a list of casinos that they can play at.
+                        for licensing reasons, the link should take them to a list of casinos that they can play at.
                     </p>
                     <p class="m-8 text-white">
                         For freeslots4u.com and our other high traffic sites, I achieved the objectives by using Maxminds GeoIP2 PHP 
@@ -135,16 +135,16 @@
                         Maxmind became an important part of the websites and is the reason why freeslots4u.com runs both Apache &amp;
                         Nginx. Maxmind moved with the times upgraded to newer versions of PHP which meant I had to update the integration
                         scripts and that we had to run the site on a newer version of PHP. 
-                        There is a large section of the site that would not work on the new versions of PHP whithout a re-write. 
-                        Unfortuanetly, the directors never gave me the go ahead to do the re-write of that section. 
+                        There is a large section of the site that would not work on the new versions of PHP without a re-write. 
+                        Unfortunately, the directors never gave me the go ahead to do the re-write of that section. 
                     </p>                              
                     <h3 class="text-blue-400 text-xl">Stats System</h3>
                     <p class="m-8 text-white">
                         After implementing the Geo targeting and the Geo targeting redirects, we still relied on stats from the casinos
-                        affiilate systems to tell us how many visitors were being sent to them and from which countries. 
+                        affiliate systems to tell us how many visitors were being sent to them and from which countries. 
                         I was tasked with creating a stats system that would keep a count of visitors to each casino for each country. 
                         This allowed us to see how well the site was performing and she system also showed us 
-                        how manay visitors had been blocked from going to the casino and which countries them visitors where from. 
+                        how many visitors had been blocked from going to the casino and which countries them visitors where from. 
                         This allowed us to identify if there were any ads, links or pages that were sending visitors to casinos that 
                         they couldn't play at.
                     </p>
@@ -163,7 +163,7 @@
                     </p>
                     <h3 class="text-blue-400 text-xl">Games</h3>
                     <p class="m-8 text-white">
-                        All of its games were originally Flash games. When Flash was depreciated, I co-ordinated with our graphics designer 
+                        All of its games were originally Flash games. When Flash was depreciated, I coordinated with our graphics designer 
                         to recreate images for HTML5 versions of the games and then hired freelance developers to convert all the games 
                         to HTML5 and create new HTML5 games. I also made it so that games would only show to visitors from certain 
                         countries if the sponsoring casino didn't accept players from that country.
@@ -181,7 +181,7 @@
                         promotions, and advertisements specific to the user's location.
                     </p>
                     <p class="m-8 text-white">
-                        The Chrome web app allowed peolpe to login, the authentication was done on the freeslots4u site and it allowed 
+                        The Chrome web app allowed people to login, the authentication was done on the freeslots4u site and it allowed 
                         people to play the games in the Chrome app and still take part in the tournaments on the main site.
                     </p>
                 </div>

@@ -10,7 +10,7 @@ useHead({
   meta: [
     {
       name: 'description',
-      content: 'This is the home page'
+      content: 'Rob Beach - A full stack developer that creates professional and functional websites.'
     }
   ]
 })
