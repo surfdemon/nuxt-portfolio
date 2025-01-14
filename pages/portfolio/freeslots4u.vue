@@ -23,7 +23,7 @@
                     </div>
                     <div class="text-center p-4 bg-blue-900/30 rounded-lg">
                         <div class="text-blue-300 mb-1">Type</div>
-                        <div class="font-semiboldi text-white">Web App</div>
+                        <div class="font-semiboldi text-white">Website</div>
                     </div>
                 </div>
 
@@ -34,68 +34,156 @@
 
                 <div class=" justify-center items-center">
                     <p class="m-8 text-white">
-                        Freeslots4u.com is one of the websites that I worked on while working at Atelm Ltd. It was one of their main sites 
-                        andn sadly just about the only one that is still live. 
-                        The site is a free slots site that offers free to play slots games. All the games have monthly leaderboards and 
-                        the site features a tournament system that allows competitions to be run on the site. The site also has a
-                        newsletter that is sent out to subscribers letting them know of the latest compotinions on the site and at the partner casinos. 
+                        Freeslots4u.com is one of the websites that I worked on while working at Atelm Ltd. It was one of
+                        their main sites but sadly just about the only one that is still live. The site is a free slots site 
+                        that offers free to play slots games. All the games have monthly leaderboards and the site features a 
+                        tournament system that allows competitions to be run on the site. The site also had a newsletter that 
+                        was sent out to subscribers letting them know of the latest compotinions on the site and at the partner 
+                        casinos. 
                     </p>
                     <p class="m-8 text-white">
-                        The site has been around for a long time and has gone through various itterations of design. All of its games were originally 
-                        Flash games. When Flash was depreciated, I co-ordinated with our graphics designer to recreate images for HTML5 versions 
-                        of the games and then hired freelance developers to convert all the games to HTML5 and create new HTML5 games. 
-                        I was responsible for testing the games and getting the games to load on the website. I also made it so that games would 
-                        only show to visitors from certain countries if the sponsoring casino didn't accept players from that country.
+                        The website had to be fully responsive and fully operational on desktop and mobile devices, including the games.
                     </p>
                     <p class="m-8 text-white">
-                        The site is monetized through advertising and affiliate links and casinos sponsored for games to be made with their branding on.
+                        The site has been around for a long time and has gone through various itterations of design. My job title 
+                        at Atelm Ltd was the technical operations manager. As well as the day to day running of the company and 
+                        handling all 3rd parties, I was responsible for all technical aspects of the websites. This included 
+                        everything to getting content created, managing hosting, building the sites, testing the sites.
                     </p>
                     <p class="m-8 text-white">
-                        I was responsible for everything from setting up the dedicated server to having content written for the site. 
-                        Over the years, I have moved the site to different servers and have made changes to the site as needed. 
-                        This included things such as, moving it from a shared hosting account to a self managed virtual servers and then to a self 
-                        managed dedicated server and also upgrading the server software as needed.
+                        The site is monetized through advertising and affiliate links and casinos sponsored for games to be made 
+                        with their branding on.
                     </p>
-                    <h3>Apache &amp; Nginx</h3>
                     <p class="m-8 text-white">
-                        The site runs on both Apache and Nginx due to the games tournament system requiring an old version of PHP and 
-                        the rest of the site requiring a newer version of PHP as it uses Maxmind. I implemented Maxmind because we 
-                        required the ability to geo target parts of the site to ensure that the site stayed compliant. Maxmind moved with the times 
-                        and started using newer versions of PHP which meant that we had to run the site on a newer version of PHP. But my 
-                        directors never gave me the go ahead to update the tournament system to work with the newer version of PHP.
+                        The pages use lots server side includes (SSI) to include PHP files for sections based on geo location of the visitors. 
+                        This allowed for the pages to still be HTML pages, which was a requirement for the site.
+                    </p>
+                    <p class="m-8 text-white">
+                        The tech stack used to build this website were HTML, CSS, Javascript, PHP, and MySQL.
+                    </p>
+                    <h3 class="text-blue-400 text-xl">Server</h3>
+                    <p class="m-8 text-white">
+                        Many of the sites ran on shared hosting accounts across lots of different hosting providers. I was 
+                        responsible for setting up, managing, and fixing problmes with all the shared hosting accounts.
+                    </p>
+                    <p class="m-8 text-white">   
+                        Freeslots4u.com started off on a shared hosting account but as the site grew, it was moved to a virtual 
+                        server and then a dedicated server. I was responsible for moving the site, setting up and managing the 
+                        new servers. This included setting up SSH, FTP, PHP, MySQL, Apache, Nginx, cron jobs, SSL certificates, 
+                        and everything else that was needed to run the site.
+                    </p>
+                    <p class="m-8 text-whit">
+                        I created scripts for as many of the tasks as possible to make it easier to manage the servers. Such as 
+                        cron jobs to backup the datasabase and files to the servers second hard drive. I also setup cron jobs on 
+                        my machine to backup the database and files from the servers to my machine.
+                    </p>
+                    <h3 class="text-blue-400 text-xl">Apache &amp; Nginx</h3>
+                    <p class="m-8 text-white">
+                        The site runs on both Apache and Nginx due to part of the website requiring an older version of PHP and 
+                        the rest of the site requiring a newer version of PHP. Apache and Nginx both run on 
+                        different ports and depending on the URL of the request, it is sent to the correct server to respond.
+                    </p>
+                    <h3 class="text-blue-400 text-xl">CSS &amp; Javascript</h3>
+                    <p class="m-8 text-white">
+                        The website was originally created with Dreamweaver before I started working on it. As such it was a rats nest 
+                        of tables. On the first redesign that I was tasked with, I moved it to Bootstrap and JQuery. 
+                    </p>
+                    <p class="m-8 text-white">      
+                        Over time as the site grew and the number of games increased, we had to change again to pure CSS and Javascript, 
+                        this time not using any Javascript frameworks or CSS libraries. 
+                    </p>
+                    <p class="m-8 text-white">
+                        This was because the site was getting slower 
+                        and slower and we needed to speed it up. Google was doing updates relating to speed on both desktop and mobile 
+                        and I was tasked with getting the site to pass all of the Google lighthouse tests. The tests highlighted Bootstrap 
+                        and JQuery as being a problem for lots of unused code being sent to the browser.
+                    </p>
+                    <h3 class="text-blue-400 text-xl">Google PageSpeed Insights</h3>
+                    <p class="m-8 text-white">
+                        The site scores mid 90s and abave on Google PageSpeed Insights for every metric with most of them scoring 100
+                        for both mobile and desktop. 
+                    </p>
+                    <img class="mx-auto mb-10" src="/public/assets/screenshots/freeslots4u-lighthouse-mobile.png"
+                    alt="Freeslots4u Lighthouse Mobile Report"> 
+                    <img class="mx-auto" src="/public/assets/screenshots/freeslots4u-lighthouse-desktop.png"
+                    alt="Freeslots4u Lighthouse Desktop Report">
+                    <p class="m-8 text-white">
+                        These reports have been run about 6 years after the speed improvement work was done. When the work was done 
+                        all the tests scored 100 and firworks went off on the lighthouse report page.
+                    </p>
+                    <h3 class="text-blue-400 text-xl">Maxmind</h3>
+                    <p class="m-8 text-white">
+                        I implemented Maxmind because I was tasked with implementing the ability to geo target parts of the site
+                        to ensure that the site stayed compliant.
+                    </p>
+                    <p class="m-8 text-white">
+                        The objectives were that adverts on the site should only be shown to contries that were elegible for the 
+                        offers. Also, if a player managed to land on a page that had a link to a casino that they couldn't play at
+                        for licensering reasons, the link should take them to a list of casinos that they can play at.
+                    </p>
+                    <p class="m-8 text-white">
+                        For freeslots4u.com and our other high traffic sites, I achieved the objectives by using Maxminds GeoIP2 PHP 
+                        API to get the visitors location. For other site that had less traffic I used Maxminds GeoIP web API via PHP 
+                        scripts to get the visitors location, this meant they didn't require updating with new versions of the Maxmind 
+                        database. 
+                    </p>
+                    <p class="m-8 text-white">  
+                        I ended up making a script that would update the Maxmind database files on the servers every month. I made these 
+                        scripts using PHP and also made a Python version. 
+                    </p>
+                    <p class="m-8 text-white">
+                        Maxmind became an important part of the websites and is the reason why freeslots4u.com runs both Apache &amp;
+                        Nginx. Maxmind moved with the times upgraded to newer versions of PHP which meant I had to update the integration
+                        scripts and that we had to run the site on a newer version of PHP. 
+                        There is a large section of the site that would not work on the new versions of PHP whithout a re-write. 
+                        Unfortuanetly, the directors never gave me the go ahead to do the re-write of that section. 
+                    </p>                              
+                    <h3 class="text-blue-400 text-xl">Stats System</h3>
+                    <p class="m-8 text-white">
+                        After implementing the Geo targeting and the Geo targeting redirects, we still relied on stats from the casinos
+                        affiilate systems to tell us how many visitors were being sent to them and from which countries. 
+                        I was tasked with creating a stats system that would keep a count of visitors to each casino for each country. 
+                        This allowed us to see how well the site was performing and she system also showed us 
+                        how manay visitors had been blocked from going to the casino and which countries them visitors where from. 
+                        This allowed us to identify if there were any ads, links or pages that were sending visitors to casinos that 
+                        they couldn't play at.
+                    </p>
+                    <p class="m-8 text-white">
+                        This stats system helped improve the conversion rates of the website and it was rolled out to all the high traffic 
+                        websites. 
+                    </p>
+                    <p class="m-8 text-white">
+                        I built the stats system using PHP and MySQL with <a href="https://www.codeigniter.com/" target="_blank">Codeigniter</a>.
+                        Freeslots4u.com is the central site that runs the reports. It uses cron jobs to call urls on the other sites which 
+                        then uses XML-RPC to transfer data back to the freeslots4u stats system.
+                    </p>
+                    <h3 class="text-blue-400 text-xl">Aweber</h3>
+                    <p class="m-8 text-white">
+                        We used Aweber for the newsletter system, I implemented it on the the sites and supported it.
+                    </p>
+                    <h3 class="text-blue-400 text-xl">Games</h3>
+                    <p class="m-8 text-white">
+                        All of its games were originally Flash games. When Flash was depreciated, I co-ordinated with our graphics designer 
+                        to recreate images for HTML5 versions of the games and then hired freelance developers to convert all the games 
+                        to HTML5 and create new HTML5 games. I also made it so that games would only show to visitors from certain 
+                        countries if the sponsoring casino didn't accept players from that country.
+                    </p>
+                    <p class="m-8 text-white">
                         The tournament system and the games themselves are the only parts that I didn't create, although I supported both of 
                         them and ended up fixing them when needed. 
                     </p>
-
-                    <h3>CSS &amp; Javascript</h3>
-
-                    <h3>Maxmind</h3>
-
-                    <h3>Aweber</h3>
+                    <h3 class="text-blue-400 text-xl">Mobile and Chrome Apps</h3>
                     <p class="m-8 text-white">
-                        The pages use server side includes (SSI) to include sectionsn based on geo location of the visitors. This allowed 
-                        for the pages to still be HTML pages, which was a requirement for the site.
-                    </p>
-
-                    <h3>Google PageSpeed Insights</h3>
-                    <p class="m-8 text-white">
-                        The site scores 90 and abave on Google PageSpeed Insights for every metric with most of them scoring 100 and is 
-                        fully responsive.
-
+                        I created a Angular app that was turned into a Chrome web app and had mobile apps created for Android and iOS. 
+                        The apps used PHP files on freeslots4u that would send them geo-targeted data. The apps were created to show different 
+                        content based on the user's location. This ensured compliance with various regulations and provided a tailored 
+                        experience for users from different regions. The geo-targeted data included information such as available games, 
+                        promotions, and advertisements specific to the user's location.
                     </p>
                     <p class="m-8 text-white">
-                        
+                        The Chrome web app allowed peolpe to login, the authentication was done on the freeslots4u site and it allowed 
+                        people to play the games in the Chrome app and still take part in the tournaments on the main site.
                     </p>
-                    <p class="m-8 text-white">
-                        
-                    </p>
-                    <p class="m-8 text-white">
-                        
-                    </p>
-                    <p class="m-8 text-white">
-                        
-                    </p>
-
                 </div>
 
 
@@ -127,20 +215,20 @@
                         <div class="p-4 bg-blue-900/30 rounded-lg border border-blue-800 text-white">Responsive Design</div>
                         <div class="p-4 bg-blue-900/30 rounded-lg border border-blue-800 text-white">User Registration and Authentication</div>
                         <div class="p-4 bg-blue-900/30 rounded-lg border border-blue-800 text-white">Geo Targeted Ads</div>
-                        <div class="p-4 bg-blue-900/30 rounded-lg border border-blue-800 text-white">In page HTML5 games</div>
+                        <div class="p-4 bg-blue-900/30 rounded-lg border border-blue-800 text-white">Geo Targeted Redirect/Stats System</div>
                     </div>
                 </section>
 
                 <section>
                     <h3 class="text-2xl font-bold mb-4 font-heading text-blue-400">Project Gallery</h3>
                     <div class="grid md:grid-cols-2 gap-4">
-                        <img src="/public/assets/screenshots/gainpace-property-home.png" alt="Gainpace Property Home Page"
+                        <img src="/public/assets/screenshots/freeslots4u-home.png" alt="Freeslots4u Home Page"
                             class="rounded-lg border border-blue-800 w-full">
-                        <img src="/public/assets/screenshots/gainpace-property-register.png" alt="Gainpace Property Register Page"
+                        <img src="/public/assets/screenshots/freeslots4u-games.png" alt="Freeslots4u Games Page"
                             class="rounded-lg border border-blue-800 w-full">
-                        <img src="/public/assets/screenshots/gainpace-property-listing.png" alt="Gainpace Property Listing Page"
+                        <img src="/public/assets/screenshots/freeslots4u-bonuses.png" alt="Freeslots4u Bonuses Page"
                             class="rounded-lg border border-blue-800 w-full">
-                        <img src="/public/assets/screenshots/gainpace-property-edit-listing.png" alt="Gainpace Property Edit Listing Page"
+                        <img src="/public/assets/screenshots/freeslots4u-game.png" alt="Freeslots4u Alien Invaders Page"
                             class="rounded-lg border border-blue-800 w-full">
                     </div>
                 </section>

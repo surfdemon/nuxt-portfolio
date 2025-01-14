@@ -23,7 +23,7 @@
                     </div>
                     <div class="text-center p-4 bg-blue-900/30 rounded-lg">
                         <div class="text-blue-300 mb-1">Type</div>
-                        <div class="font-semiboldi text-white">Web App</div>
+                        <div class="font-semiboldi text-white">Website</div>
                     </div>
                 </div>
 
