@@ -17,10 +17,10 @@
             <nuxt-link to="/about" class="p-3 my-2 rounded-md text-center" @click="closeMobileMenu">About</nuxt-link>
           </li>
           <li class="my-5 text-center">
-            <nuxt-link to="/contact" class="p-3 my-2 rounded-md text-center" @click="closeMobileMenu">Contact</nuxt-link>
+            <nuxt-link to="/portfolio" class="p-3 my-2 rounded-md text-center" @click="closeMobileMenu">Projects</nuxt-link>
           </li>
           <li class="my-5 text-center">
-            <nuxt-link to="/portfolio" class="p-3 my-2 rounded-md text-center" @click="closeMobileMenu">Projects</nuxt-link>
+            <nuxt-link to="/contact" class="p-3 my-2 rounded-md text-center" @click="closeMobileMenu">Contact</nuxt-link>
           </li>
         </ul>
       </nav>
