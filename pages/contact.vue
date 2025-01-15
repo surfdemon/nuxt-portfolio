@@ -39,12 +39,7 @@
                 <div class="text-lg">Cornwall, United Kingdom</div>
               </div>
 
-              <div>
-                <div class="text-blue-300 mb-1">Email</div>
-                <a href="mailto:surfdemon@gmail.com" class="text-lg hover:text-blue-400 transition">
-                  surfdemon@gmail.com
-                </a>
-              </div>
+              
 
               <div>
                 <div class="text-blue-300 mb-1">Social</div>
