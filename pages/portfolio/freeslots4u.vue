@@ -42,16 +42,16 @@
                         the partner casinos.
                     </p>
                     <p class="m-8 text-white">
+                        My job title at Atelm Ltd was technical operations manager. In addition to the day-to-day running 
+                        of the company and handling all third parties, I was responsible for all technical aspects of the 
+                        websites. This included everything from getting content created to managing hosting, building the 
+                        sites, and testing the sites.
+                    </p>
+                    <p class="m-8 text-white">
                         The website had to be fully responsive and operational on desktop and mobile devices, including the games.
                     </p>
                     <p class="m-8 text-white">
-                        The site makes money through advertising affiliate links and casinos sponsored for games with their branding.
-                    </p>
-                    <p class="m-8 text-white">
-                        The site has been around for a long time and has undergone various design iterations. My job title at Atelm 
-                        Ltd was technical operations manager. In addition to the day-to-day running of the company and handling all 
-                        third parties, I was responsible for all technical aspects of the websites. This included everything from 
-                        getting content created to managing hosting, building the sites, and testing the sites.
+                        The site makes money through advertising affiliate links and casinos sponsorship for games with their branding.
                     </p>
                     <p class="m-8 text-white">
                         The pages use many server-side includes (SSI) to include PHP files for sections based on visitors' 
@@ -88,6 +88,9 @@
                     </p>
                     <h3 class="text-blue-400 text-xl">CSS &amp; Javascript</h3>
                     <p class="m-8 text-white">
+                        The site has been around for a long time and has undergone various design iterations. 
+                    </p>
+                    <p class="m-8 text-white">
                         The website was originally created with Dreamweaver before I started working on 
                         it. As such, it was a rats' nest of tables. On the first redesign  I was tasked 
                         with, I moved it to Bootstrap and JQuery. 
@@ -123,7 +126,7 @@
                         to ensure that the site stayed compliant.
                     </p>
                     <p class="m-8 text-white">
-                        TThe objective was that adverts on the site should only be shown to countries that were eligible for the offers. 
+                        The objective was that adverts on the site should only be shown to countries that were eligible for the offers. 
                         Also, if a player lands on a page with a link to a casino that they couldn't play at for licensing reasons, 
                         the link should take them to a list of casinos that they can play at.
                     </p>
@@ -135,23 +138,24 @@
                     </p>
                     <p class="m-8 text-white">  
                         I ended up making a script that would update the Maxmind database files on the servers every month. I made 
-                        these scripts using PHP and also made a Python version.
+                        these scripts using Node.js and also made a Python version.
                     </p>
                     <p class="m-8 text-white">
                         Maxmind became an important part of the websites and is the reason why freeslots4u.com runs both Apache & Nginx. 
                         Maxmind moved with the times upgraded to newer versions of PHP, which meant I had to update the integration 
-                        scripts and that we had to run the site on a newer version of PHP. A large section of the site would not work 
+                        scripts and we had to run the site on a newer version of PHP. A large section of the site would not work 
                         on the new versions of PHP without a rewrite. Unfortunately, the directors never gave me the go-ahead to do the 
                         rewrite of that section.
                     </p>                              
                     <h3 class="text-blue-400 text-xl">Stats System</h3>
                     <p class="m-8 text-white">
-                        After implementing the Geo targeting and the Geo-targeting redirects, we still relied on stats from the casino's 
-                        affiliate systems to tell us how many visitors were being sent to them and from which countries. I was tasked 
-                        with creating a stats system that would keep a count of visitors to each casino for each country. This allowed 
-                        us to see how well the site was performing, and the system also showed us how many visitors had been blocked from 
-                        going to the casino and which countries they were from. This allowed us to identify if there were any ads, links 
-                        or pages that were sending visitors to casinos that they couldn't play at.
+                        After implementing the Geo targeting and the Geo-targeted redirects, we still relied on stats from the casino's 
+                        affiliate systems to tell us how many visitors were being sent to them and from which countries. After seeing 
+                        some numbers that didn't add up, I was tasked with creating a stats system that would keep a count of visitors 
+                        to each casino for each country. This allowed us to see how well the site was performing, and the system also 
+                        showed us how many visitors had been blocked from going to the casino and which countries they were from. This 
+                        allowed us to identify if there were any ads, links or pages that were sending visitors to casinos that they 
+                        couldn't play at.
                     </p>
                     <p class="m-8 text-white">
                         This stats system helped improve the conversion rates of the website and it was rolled out to all the high traffic 
@@ -159,8 +163,12 @@
                     </p>
                     <p class="m-8 text-white">
                         I built the stats system using PHP and MySQL with <a href="https://www.codeigniter.com/" target="_blank">Codeigniter</a>.
-                        Freeslots4u.com is the central site that runs the reports. It uses cron jobs to call urls on the other sites which 
-                        then uses XML-RPC to transfer data back to the freeslots4u stats system.
+                        Freeslots4u.com is the central site that runs the reports. 
+                    </p>
+                    <p class="m-8 text-white">
+                        There is a button in the admin area collects data form all the other sites and it also collects data automatically. 
+                        It uses cron jobs to call urls on the other sites which then uses XML-RPC to transfer data back to the freeslots4u 
+                        stats system.
                     </p>
                     <h3 class="text-blue-400 text-xl">Aweber</h3>
                     <p class="m-8 text-white">
