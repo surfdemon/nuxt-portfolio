@@ -50,7 +50,7 @@
                         decided it would be fun to try and create it using pure Javascript. We also included sound and
                         animation to make the game more fun. </p>
                     <p class="m-8 text-white">
-                        Both Nathan and myself worked on all areas of the game and helped each other.
+                        Both Nathan and I worked on all areas of the game and helped each other.
                     </p>
                 </div>
 
