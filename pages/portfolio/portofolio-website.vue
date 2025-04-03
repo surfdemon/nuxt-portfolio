@@ -52,7 +52,7 @@
                         a message is displayed to the visitor to confirm that the form has been submitted successfully.
                     </p>
                     <p class="m-8 text-white">
-                        When the form is submitted, the data is sent to Netlify and I have used Netlify notifications to hav an email 
+                        When the form is submitted, the data is sent to Netlify and I have used Netlify notifications to have an email 
                         sent to me with the form data.
                     </p>
                     <p class="m-8 text-white">

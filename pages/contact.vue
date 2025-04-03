@@ -39,18 +39,13 @@
                 <div class="text-lg">Cornwall, United Kingdom</div>
               </div>
 
-              <div>
-                <div class="text-blue-300 mb-1">Email</div>
-                <a href="mailto:surfdemon@gmail.com" class="text-lg hover:text-blue-400 transition">
-                  surfdemon@gmail.com
-                </a>
-              </div>
+              
 
               <div>
                 <div class="text-blue-300 mb-1">Social</div>
                 <div class="flex space-x-4">
-                  <a href="https://www.linkedin.com/in/rob-p-beach/" class="text-lg hover:text-blue-400 transition">LinkedIn</a>
-                  <a href="https://github.com/surfdemon/" class="text-lg hover:text-blue-400 transition">GitHub</a>
+                  <a href="https://www.linkedin.com/in/rob-p-beach/" target="_blank" class="text-lg hover:text-blue-400 transition">LinkedIn</a>
+                  <a href="https://github.com/surfdemon/" target="_blank" class="text-lg hover:text-blue-400 transition">GitHub</a>
                 </div>
               </div>
             </div>
