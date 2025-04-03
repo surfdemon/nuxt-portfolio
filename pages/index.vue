@@ -6,7 +6,7 @@
 
 <script  setup>
 useHead({
-  title: 'Home Page',
+  title: 'Rob Beach - Full Stack Developer',
   meta: [
     {
       name: 'description',

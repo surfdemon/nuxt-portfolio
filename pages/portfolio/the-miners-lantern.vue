@@ -53,7 +53,7 @@
                 <section class="mb-12">
                     <h3 class="text-2xl font-bold mb-4 font-heading text-blue-400">Project Links</h3>
                     <div class="flex gap-4">
-                        <a href="https://github.com/surfdemon/nuxt-portfolio" target="_blank" rel="noopener noreferrer"
+                        <a href="https://github.com/surfdemon/theater-booking-system" target="_blank" rel="noopener noreferrer"
                             class="flex-1 p-4 bg-blue-900/30 rounded-lg border border-blue-800 hover:bg-blue-800/30 transition text-center">
                             <div class="text-blue-300 mb-2">Source Code</div>
                             <div class="font-semibold text-white">View on GitHub</div>

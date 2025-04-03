@@ -302,4 +302,13 @@
 </template>
 
 <script setup>
+useHead({
+  title: 'Portfolio Projects',
+  meta: [
+    {
+      name: 'description',
+      content: 'A collection of my projects showcasing my skills and experience as a developer.'
+    }
+  ]
+})
 </script>
