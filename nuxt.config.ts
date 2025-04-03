@@ -7,7 +7,6 @@ export default defineNuxtConfig({
     'nuxt-mail'
         
   ],
-  ssr: false, 
   runtimeConfig: { 
     mail: {
       message: {
@@ -45,5 +44,5 @@ export default defineNuxtConfig({
   },
 
   compatibilityDate: '2024-12-19',
-  ssr: true,
+  ssr: false,
 });
