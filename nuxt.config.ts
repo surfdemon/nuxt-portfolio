@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     'nuxt-mail'
         
   ],
+  ssr: false, 
   runtimeConfig: { 
     mail: {
       message: {
