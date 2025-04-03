@@ -169,7 +169,7 @@ console.log('formData is ' + formData);
 };
 
 useHead({
-  title: 'Contact Page',
+  title: 'Contact Rob Beach',
   meta: [
     {
       name: 'description',
