@@ -39,5 +39,10 @@ export default defineNuxtConfig({
 
   compatibilityDate: '2024-12-19',
   ssr: false,
-
+  nitro: {
+    preset: 'netlify'
+  },
+  generate: {
+    dir: 'dist'
+  },
 });
