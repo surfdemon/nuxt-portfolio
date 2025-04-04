@@ -3,7 +3,6 @@ export default defineNuxtConfig({
   modules:[
     '@nuxtjs/google-fonts',
     '@nuxtjs/tailwindcss',
-    '@nuxt/content',
     'nuxt-mail'
         
   ],
@@ -22,11 +21,6 @@ export default defineNuxtConfig({
         },
       },
     },
-  },
-  
-
-  content: { 
-
   },
   tailwindcss: { 
       exposeConfig: true, 
