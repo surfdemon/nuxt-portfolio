@@ -3,7 +3,6 @@ export default defineNuxtConfig({
   modules:[
     '@nuxtjs/google-fonts',
     '@nuxtjs/tailwindcss',
-    '@nuxt/content',
     'nuxt-mail'
         
   ],
@@ -23,11 +22,6 @@ export default defineNuxtConfig({
       },
     },
   },
-  
-
-  content: { 
-
-  },
   tailwindcss: { 
       exposeConfig: true, 
       viewer: true,
@@ -44,5 +38,13 @@ export default defineNuxtConfig({
   },
 
   compatibilityDate: '2024-12-19',
-  ssr: true,
+//  ssr: true,
+//});
+  ssr: false,
+  nitro: {
+    preset: 'netlify'
+  },
+  generate: {
+    dir: 'dist'
+  },
 });
